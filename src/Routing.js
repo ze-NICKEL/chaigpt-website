@@ -1,5 +1,6 @@
 import {Routes, Route} from 'react-router-dom';
 import Home from './Home';
+import Team from './Team';
 function Routing (){
 
 
@@ -8,7 +9,7 @@ function Routing (){
         <Routes>
             <Route index element={<Home/>}/>
             <Route path='/*' element={<Home />}/>
-            <Route path="/test" element={<div>test</div>}/>
+            <Route path="/team" element={<Team/>}/>
         </Routes>
         </div>
     );

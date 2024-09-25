@@ -1,4 +1,4 @@
-import './App.css';
+import './Team.css';
 import team_pic from './team_picture.webp';
 import logo from './chaigpt_logo.webp';
 

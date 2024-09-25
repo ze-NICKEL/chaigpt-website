@@ -1,33 +1,40 @@
+/* css for home and nav */
+
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
-  
+  background-color: #8ABAC7;
 }
 .nav {
-    background-color: rgb(47, 112, 166);
+    background-color: #2F70A6 ;
     overflow: hidden;
-  }
-  
+}
+.nav-logo {
+  width: 4%;
+  height: auto;
+  position: absolute;
+  left: 48.25%;
+  margin-top: 5px;
+}
  
 .link_styles {
     float: left;
     color: #f2f2f2;
-
+    margin-top: 5px;
     text-align: center;
-    padding: 14px 16px;
+    padding: 18px 20px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
     
     
   }
 .link_styles:first-child {
-    margin-left: 39.4%;
+    margin-left: 31.5%;
 }
-.link_styles:last-child {
-    margin-right: 35%;
+.special_link {
+  margin-right: 4%;
 }
-  
   
 .link_styles:hover {
     
@@ -35,7 +42,7 @@ body {
 
   }
 @keyframes hover {
-    from {background-color: rgb(47, 112, 166);}
+    from {background-color: #2F70A6;}
     to {background-color: #1f89d4;}
   }
   
@@ -43,12 +50,14 @@ body {
 #banner { 
     position: relative;
     background-repeat: no-repeat;
-    border-top: rgb(47, 112, 166) 5px;
+    border-top:  5px solid #2F70A6;
+    border-bottom: 5px solid #8ABAC7;
 }
 .team_photo {
   object-fit: contain;
-  filter: grayscale(1) blur(2px);
+  filter: grayscale(0.8) blur(3.5px);
   width: 100%;
+   border-bottom: 5px solid #8ABAC7;
   
 }
 .logo {
@@ -69,11 +78,15 @@ body {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 54px;
-  color: rgb(47, 112, 166);
-  -webkit-text-stroke: 3px rgb(0, 0, 0);
+  color: #2F70A6;
+
   font-family: "Teachers", sans-serif;
   font-optical-sizing: auto;
 
-  font-style: normal;
+  font-weight: 800;
 }
 
+.slide-in {
+  transform: translateX(0) !important;
+  opacity: 1 !important;
+}
