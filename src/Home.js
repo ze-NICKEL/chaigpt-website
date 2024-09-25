@@ -1,7 +1,7 @@
 import './App.css';
 import team_pic from './team_picture.webp';
 import logo from './chaigpt_logo.webp';
-import { useNavigate } from 'react-router';
+
 function Home (){
     
     return (
