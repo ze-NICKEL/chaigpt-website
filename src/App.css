@@ -4,7 +4,7 @@ body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
-  background-color: #8ABAC7;
+  background-color: #b9d2e0;
 }
 .nav {
     background-color: #2F70A6 ;
@@ -15,7 +15,7 @@ body {
   height: auto;
   position: absolute;
   left: 48.25%;
-  margin-top: 5px;
+  margin-top: 1px;
 }
  
 .link_styles {
@@ -30,7 +30,7 @@ body {
     
   }
 .link_styles:first-child {
-    margin-left: 31.5%;
+    margin-left: 29.45%;
 }
 .special_link {
   margin-right: 4%;
@@ -51,13 +51,13 @@ body {
     position: relative;
     background-repeat: no-repeat;
     border-top:  5px solid #2F70A6;
-    border-bottom: 5px solid #8ABAC7;
+
 }
 .team_photo {
   object-fit: contain;
   filter: grayscale(0.8) blur(3.5px);
   width: 100%;
-   border-bottom: 5px solid #8ABAC7;
+
   
 }
 .logo {
@@ -85,8 +85,7 @@ body {
 
   font-weight: 800;
 }
-
-.slide-in {
-  transform: translateX(0) !important;
-  opacity: 1 !important;
+.contact_card {
+  position: absolute;
+  left: 26.5%;
 }

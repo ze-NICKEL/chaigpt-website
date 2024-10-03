@@ -1,0 +1,55 @@
+#banner { 
+    position: relative;
+    background-repeat: no-repeat;
+    border-top:  5px solid #2F70A6;
+
+}
+.team_photo {
+  object-fit: contain;
+  filter: grayscale(0.8) blur(3.5px);
+  width: 100%;
+
+  
+}
+.team_title {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 54px;
+    color: #2F70A6;
+  
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+  
+    font-weight: 800;
+  }
+  
+.card {
+    border: 5px solid rgb(78, 75, 75);
+    background-color: rgb(255, 255, 255);
+    width: 24vw;
+    height: 36vw;
+    margin-left: 10px;
+    border-radius: 20px;    
+    text-align: center;
+}
+.card_container {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+}
+.card_img {
+    width:18vw;
+    border-radius: 100vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
+    margin-top: 1vw;
+    height: 18vw;
+    border: 5px solid gray;
+    object-fit: cover;
+}
+h1 {
+    text-align: center;
+    margin-left: 3.5%;
+}

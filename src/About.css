@@ -1,0 +1,12 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.mission_container {
+    font-family: "Teachers", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 32px;
+    color: rgb(1, 31, 108);
+    font-weight: 800;
+    text-align: center;
+}
