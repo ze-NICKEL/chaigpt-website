@@ -1,9 +1,38 @@
-/* css for home and nav */
-
+/* css for home, contact, and nav */
+iframe {
+  width: 50%;
+  height: 1000px;
+  margin-left: 25%;
+  margin-top: 15%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+#home-blurb {
+  width: 90%;
+  border: 3px solid black;
+  border-radius: 5px;
+  position: absolute;
+  left: 5%;
+  padding: 10px;
+  background-color: white;
+}
+#insta-feed {
+  position: absolute;
+  margin-left: 0;
+  margin-bottom: 10%;
+  left: 17.5%;
+  height: 950px;
+  width: 70%;
+}
 body {
   font-family: "Roboto Mono", monospace;
   font-optical-sizing: auto;
   font-weight: 500;
+  /*
+  font-family: "Mukta", sans-serif;
+  font-weight: 200;
+  font-style: normal; 
+  */
   background-color: #b9d2e0;
 }
 .nav {
@@ -30,7 +59,7 @@ body {
     
   }
 .link_styles:first-child {
-    margin-left: 29.45%;
+    margin-left: 31.45%;
 }
 .special_link {
   margin-right: 4%;
@@ -75,7 +104,7 @@ body {
 .title {
   position: absolute;
   top: 60%;
-  left: 50%;
+  left: 47.5%;
   transform: translate(-50%, -50%);
   font-size: 54px;
   color: #2F70A6;
@@ -87,5 +116,5 @@ body {
 }
 .contact_card {
   position: absolute;
-  left: 26.5%;
+  left: 28.5%;
 }

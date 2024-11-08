@@ -13,25 +13,25 @@ function About () {
             <motion.h2 initial={{ opacity: 0, x:"-10%" }}
                 whileInView={{ opacity: 1, x: "1.15%" }}
                 viewport={{once: true, amount: 0.45}}
-                transition={{duration: 1, delay: 3.1}}>
+                transition={{duration: 1, delay: 2.1}}>
                     Innovate.
             </motion.h2>
             <motion.h2 initial={{ opacity: 0, x:"10%" }}
                 whileInView={{ opacity: 1, x: "1.15%" }}
                 viewport={{once: true, amount: 0.45}}
-                transition={{duration: 1, delay: 4.1}}>
+                transition={{duration: 1, delay: 3.1}}>
                     Improvise.
             </motion.h2>
             <motion.h2 initial={{ opacity: 0, x:"-10%" }}
                 whileInView={{ opacity: 1, x: "1.15%" }}
                 viewport={{once: true, amount: 0.45}}
-                transition={{duration: 1, delay: 5.1}}>
+                transition={{duration: 1, delay: 4.1}}>
                     Think.
             </motion.h2>
             <motion.h2 initial={{ opacity: 0, x:"10%" }}
                 whileInView={{ opacity: 1, x: "1.15%" }}
                 viewport={{once: true, amount: 0.45}}
-                transition={{duration: 1, delay: 6.1}}>
+                transition={{duration: 1, delay: 5.1}}>
                     Overcome.
             </motion.h2>
             </div>
