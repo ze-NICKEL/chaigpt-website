@@ -1,3 +1,3 @@
 # CHAIGPT OFFICIAL WEBSITE
 
-Developed by Nikhil Sarathy
+Developed by Nikhil Sarathy 
